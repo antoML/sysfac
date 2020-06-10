@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+data/
+__pycache__/
+stage_folder/
+print_n_log.py/
+.Rhistory

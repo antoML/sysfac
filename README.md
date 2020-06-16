@@ -1,6 +1,6 @@
 # sysfac
 
-> Ce dépôt regroupe des méthodes de factorisation de matrices pour l'imputation de données spatiotemporelles. À ceci en découlera une étude qui vise à comprendre leur comportement selon divers scénarios de données manquantes. 
+> Ce dépôt regroupe des méthodes de factorisation de matrices pour l'imputation de données spatiotemporelles. À ceci en découlera une étude de maitrise qui vise à comprendre leur comportement selon divers scénarios de données manquantes. 
 
 # Utilisation
 

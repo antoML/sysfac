@@ -6,12 +6,12 @@ Ce dépôt regroupe des méthodes de factorisation de matrices pour l'imputation
 # Modèles implémentés
 
 ## Méthodes non probabilistes
-| Nom | Décomposition | Corrélation | Hyperparamètres | Optimisation | Anglais | Notes |
-| --- | --- | --- | --- | --- | --- | --- | 
+| Nom | Décomposition | Corrélation | Hyperparamètres | Anglais | Notes |
+| --- | --- | --- | --- | --- | --- | 
 | Factorisation de matrice non négative (FMNN) | Non négative | Aucune | <p>Rang,  &alpha;,  &beta;</p> | Non-negative matrix factorization (NNMF) | X |
-| Factorisation de matrice à pénalité fixe (FMPF) |  | Temporelle | <p>Rang,  x<sub>t</sub>,  &rho;<sub>u</sub>,  &rho;<sub>v</sub>,  P</p> | Fixed penalty matrix factorization (FPMF) | Apprentissage incrémental |
-| Factorisation de matrice à tolérance fixe (FMTF) |  | Temporelle | <p>Rang,  x<sub>t</sub>,  &epsilon;,  &rho;<sub>u</sub>,  P</p> | Fixed tolerance matrix factorization (FTMF) | Apprentissage incrémental |
-| Factorisation de matrice sans tolérance (FMST) |  | Temporelle | <p>Rang,  x<sub>t</sub>,  &rho;<sub>u</sub>,  P</p> | Zero tolerance matrix factorization (ZTMF) | Apprentissage incrémental |
+| Factorisation de matrice à pénalité fixe (FMPF) | X | Temporelle | <p>Rang,  x<sub>t</sub>,  &rho;<sub>u</sub>,  &rho;<sub>v</sub>,  P</p> | Fixed penalty matrix factorization (FPMF) | Apprentissage incrémental |
+| Factorisation de matrice à tolérance fixe (FMTF) | X | Temporelle | <p>Rang,  x<sub>t</sub>,  &epsilon;,  &rho;<sub>u</sub>,  P</p> | Fixed tolerance matrix factorization (FTMF) | Apprentissage incrémental |
+| Factorisation de matrice sans tolérance (FMST) | X | Temporelle | <p>Rang,  x<sub>t</sub>,  &rho;<sub>u</sub>,  P</p> | Zero tolerance matrix factorization (ZTMF) | Apprentissage incrémental |
 | Factorisation de matrice par rang inférieur structurée (FMRIS) | Décomposition en valeurs singulières | Temporelle | <p>Rang,  durée,  prévision,  n,  &rho;</p> | Structured low rank matrix completion (SLRMC) | Ligne par ligne |
 | Factorisation de matrice à régularisation temporelle (FMRT) | Décomposition en valeurs singulières | Temporelle | <p>Rang,  &lambda;<sub>w</sub>,  &lambda;<sub>x</sub>,  &lambda;<sub>&theta;</sub>,  &eta;,  période</p> | Temporal regularized matrix factorization (TRMF) | X |
 

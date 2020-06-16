@@ -18,7 +18,7 @@ Ce dépôt regroupe des méthodes de factorisation de matrices pour l'imputation
 ## Méthodes probabilistes
 | Nom | Type probabiliste | Corrélation | Hyperparamètres | Optimisation | Anglais | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Factorisation de matrice probabiliste bayésienne (FMPB) | Bayésien | temporelle | <p>Rang,  A,  &beta;</p> | MCCM | Bayesian probabilistic matrix factorization (NNMF) | X |
+| Factorisation de matrice probabiliste bayésienne (FMPB) | Bayésien | temporelle | <p>Rang,  &alpha;,  &alpha;<sub>V</sub>,  &alpha;<sub>Y</sub></p> | MCCM | Bayesian probabilistic matrix factorization (NNMF) | X |
 | Factorisation de matrice à temporalité bayésienne (FMTB) | Bayésien | temporelle | <p>Rang,  &mu;<sub>0</sub>,  W<sub>0</sub>,  &nu;<sub>0</sub>,  &beta;<sub>0</sub>,  &alpha;,  &beta;,  M<sub>0</sub>,  &psi;<sub>0</sub>,  S<sub>0</sub></p> | MCCM | Bayesian temporal matrix factorization (BTMF) | X |
 | Factorisation de matrice à noyaux bayésiens (FMNB) | Bayésien | spatiotemporelle | <p>Rang,  P<sub>z</sub>,  P<sub>x</sub>,  &alpha;<sub>&eta;</sub>,  &beta;<sub>&eta;</sub>,  &alpha;<sub>&lambda;</sub>,  &beta;<sub>&lambda;</sub>,  &sigma;<sub>g</sub>,  &sigma;<sub>h</sub>,  &nu;</p> | Variationel | Kernelized bayesian matrix factorization (KBMF) | Noyaux : <p>Exponentiel<br>Gaussien<br>Périodique<p> |
 | Factorisation de matrice à noyaux probabilistes (FMNP) | Fréquentiste | spatiotemporelle | <p>Rang,  &eta;,  &sigma;</p> | DG/DGS | Kernelized probabilistic matrix factorization (KPMF) | Noyaux : <p>Exponentiel<br>Gaussien<br>Périodique<p> |

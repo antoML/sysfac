@@ -1,12 +1,17 @@
 # sysfac
 
-> Ce dépôt regroupe des méthodes de factorisation de matrices pour l'imputation de données spatiotemporelles. À ceci en découlera une étude de maitrise qui vise à comprendre leur comportement selon divers scénarios de données manquantes. 
+> Ce dépôt regroupe des méthodes de factorisation de matrices pour l’imputation de données spatiotemporelles. À ceci en découlera une étude de maitrise qui vise à comprendre leur comportement selon divers scénarios de données manquantes. Hormis les systèmes de recommandations, les méthodes de factorisations peuvent être utilisées dans divers domaines, les transports et la santé entre autres.  
+
+
 
 # Utilisation
 
-Pour utiliser les modèles, l'utilisateur doit avoir R ou Python, ainsi que Jupyter Notebook. 
+Pour utiliser les modèles, l’utilisateur doit avoir R ou Python, ainsi que Jupyter Notebook.
+> *Les livrets Jupyter se veulent développés dans une optique pédagogique (pour initier l’utilisateur aux méthodes de factorisations) et académique (pour l’utilisateur avec des connaissances préalables).*
 
 # Sommaire des modèles implémentés
+
+> *Les liens sur les acronymes permettent de se rendre directement aux livrets Jupyter.*
 
 ## Non probabilistes
 | Nom | Décomposition | Corrélation | Hyperparamètres | Notes | Anglais |
@@ -23,9 +28,9 @@ Pour utiliser les modèles, l'utilisateur doit avoir R ou Python, ainsi que Jupy
 | --- | --- | --- | --- | --- | --- | --- |
 | Factorisation de matrice probabiliste bayésienne ([FMPB](https://github.com/antoML/sysfac/blob/master/PBG_FM-ProbabilisteBayesienne_BPMF.ipynb)) | Bayésien | temporelle | <p>Rang,  &alpha;,  &alpha;<sub>V</sub>,  &alpha;<sub>Y</sub></p> | MCCM |  | Bayesian probabilistic matrix factorization (BPMF) |
 | Factorisation de matrice à temporalité bayésienne ([FMTB](https://github.com/antoML/sysfac/blob/master/PBG_FM-TemporelleBayesienne_BTMF.ipynb)) | Bayésien | temporelle | <p>Rang,  &mu;<sub>0</sub>,  W<sub>0</sub>,  &nu;<sub>0</sub>,  &beta;<sub>0</sub>,  &alpha;,  &beta;,  M<sub>0</sub>,  &psi;<sub>0</sub>,  S<sub>0</sub></p> | MCCM |  | Bayesian temporal matrix factorization (BTMF) |
-| Factorisation de matrice à noyaux bayésiens ([FMNB](https://github.com/antoML/sysfac/blob/master/PBG_FM-NoyauxBayesiens_KBMF.ipynb)) | Bayésien | spatiotemporelle | <p>Rang,  P<sub>z</sub>,  P<sub>x</sub>,  &alpha;<sub>&eta;</sub>,  &beta;<sub>&eta;</sub>,  &alpha;<sub>&lambda;</sub>,  &beta;<sub>&lambda;</sub>,  &sigma;<sub>g</sub>,  &sigma;<sub>h</sub>,  &nu;</p> | Variationel |  Noyaux : <p>Exponentiel<br>Gaussien<br>Périodique<p> | Kernelized bayesian matrix factorization (KBMF) |
-| Factorisation de matrice à noyaux probabilistes ([FMNP](https://github.com/antoML/sysfac/blob/master/PFG_FM-NoyauxProbabilistes_KPMF.ipynb)) | Fréquentiste | spatiotemporelle | <p>Rang,  &eta;,  &sigma;</p> | DG/DGS |  Noyaux : <p>Exponentiel<br>Gaussien<br>Périodique<p> | Kernelized probabilistic matrix factorization (KPMF) |
-| Factorisation de matrice probabiliste ([FMP](https://github.com/antoML/sysfac/blob/master/PFG_FM-Probabiliste_PMF.ipynb)) | Fréquentiste| Aucune | <p>Rang,  &eta;,  tx régu</p> | DG | Variantes : <p>Prieures adaptatives<br>Contraintes</p> | Probabilistic matrix factorization (PMF) |
+| Factorisation de matrice à noyaux bayésiens ([FMNB](https://github.com/antoML/sysfac/blob/master/PBG_FM-NoyauxBayesiens_KBMF.ipynb)) | Bayésien | spatiotemporelle | <p>Rang,  P<sub>z</sub>,  P<sub>x</sub>,  &alpha;<sub>&eta;</sub>,  &beta;<sub>&eta;</sub>,  &alpha;<sub>&lambda;</sub>,  &beta;<sub>&lambda;</sub>,  &sigma;<sub>g</sub>,  &sigma;<sub>h</sub>,  &nu;</p> | Variationel |  Noyaux : <p>Exponentiel<br>Gaussien<br>Périodique<p> | Kernelized bayesian matrix factorization (KBMF) |
+| Factorisation de matrice à noyaux probabilistes ([FMNP](https://github.com/antoML/sysfac/blob/master/PFG_FM-NoyauxProbabilistes_KPMF.ipynb)) | Fréquentiste | spatiotemporelle | <p>Rang,  &eta;,  &sigma;</p> | DG/DGS |  Noyaux : <p>Exponentiel<br>Gaussien<br>Périodique<p> | Kernelized probabilistic matrix factorization (KPMF) |
+| Factorisation de matrice probabiliste ([FMP](https://github.com/antoML/sysfac/blob/master/PFG_FM-Probabiliste_PMF.ipynb)) | Fréquentiste| Aucune | <p>Rang,  &eta;,  tx régu</p> | DG | Variantes : <p>Prieures adaptatives<br>Contraintes</p> | Probabilistic matrix factorization (PMF) |
 
 
 # Références
@@ -62,4 +67,5 @@ Pour utiliser les modèles, l'utilisateur doit avoir R ou Python, ainsi que Jupy
 
 # Statut du projet
 > En construction.
+
 

@@ -24,7 +24,7 @@ To use the models, the user must have R or Python, and Jupyter Notebook installe
 | Factorisation de matrice par rang inférieur structurée ([FMRIS](https://github.com/antoML/sysfac/blob/master/NP_FM-RangInferieurStructure_SLRMC.ipynb)) | Singular Values Decomposition | temporal | <p>rank,  duration,  forecast,  n,  &rho;</p> | Row by row | Structured low rank matrix completion (SLRMC) |
 | Factorisation de matrice à régularisation temporelle ([FMRT](https://github.com/antoML/sysfac/blob/master/NP_FM-RegularisationTemporelle_TRMF.ipynb)) | Singular Values Decomposition | temporal | <p>rank,  &lambda;<sub>w</sub>,  &lambda;<sub>x</sub>,  &lambda;<sub>&theta;</sub>,  &eta;,  duration</p> |  | Temporal regularized matrix factorization (TRMF) |
 
-## Probabilistes
+## Probabilistic
 | French Name | Probabilistic type | Correlation | Hyperparameters | Optimisation | Notes | English |
 | --- | --- | --- | --- | --- | --- | --- |
 | Factorisation de matrice probabiliste bayésienne ([FMPB](https://github.com/antoML/sysfac/blob/master/PBG_FM-ProbabilisteBayesienne_BPMF.ipynb)) | Bayesian | temporal | <p>rank,  &alpha;,  &alpha;<sub>V</sub>,  &alpha;<sub>Y</sub></p> | MCMC |  | Bayesian probabilistic matrix factorization (BPMF) |

@@ -15,7 +15,7 @@ To use the models, the user must have R or Python, and Jupyter Notebook installe
 > *links on the acronyms take you directly to the Jupyter notebooks.*
 
 ## Non-probabilistic
-| Name | Decomposition method | Correlation | Hyperparameters | Notes | English |
+| French Name | Decomposition method | Correlation | Hyperparameters | Notes | English |
 | --- | --- | --- | --- | --- | --- | 
 | Factorisation de matrice non négative ([FMNN](https://github.com/antoML/sysfac/blob/master/NP_FM-NonNegative_NMF.ipynb)) | Non negative |   | <p>rank,  &alpha;,  &beta;</p> |  | Non-negative matrix factorization (NNMF) |
 | Factorisation de matrice à pénalité fixe ([FMPF](https://github.com/antoML/sysfac/blob/master/NP_FM-ApprentissageIncremental_OMF.ipynb)) |  | temporal | <p>rank,  x<sub>t</sub>,  &rho;<sub>u</sub>,  &rho;<sub>v</sub>,  P</p> | Online Learning | Fixed penalty matrix factorization (FPMF) |
@@ -25,13 +25,13 @@ To use the models, the user must have R or Python, and Jupyter Notebook installe
 | Factorisation de matrice à régularisation temporelle ([FMRT](https://github.com/antoML/sysfac/blob/master/NP_FM-RegularisationTemporelle_TRMF.ipynb)) | Singular Values Decomposition | temporal | <p>rank,  &lambda;<sub>w</sub>,  &lambda;<sub>x</sub>,  &lambda;<sub>&theta;</sub>,  &eta;,  duration</p> |  | Temporal regularized matrix factorization (TRMF) |
 
 ## Probabilistes
-| Name | Probabilistic type | Correlatio | Hyperparameters | Optimisation | Notes | Anglais |
+| French Name | Probabilistic type | Correlation | Hyperparameters | Optimisation | Notes | English |
 | --- | --- | --- | --- | --- | --- | --- |
 | Factorisation de matrice probabiliste bayésienne ([FMPB](https://github.com/antoML/sysfac/blob/master/PBG_FM-ProbabilisteBayesienne_BPMF.ipynb)) | Bayesian | temporal | <p>rank,  &alpha;,  &alpha;<sub>V</sub>,  &alpha;<sub>Y</sub></p> | MCMC |  | Bayesian probabilistic matrix factorization (BPMF) |
 | Factorisation de matrice à temporalité bayésienne ([FMTB](https://github.com/antoML/sysfac/blob/master/PBG_FM-TemporelleBayesienne_BTMF.ipynb)) | Bayesian | temporal | <p>rank,  &mu;<sub>0</sub>,  W<sub>0</sub>,  &nu;<sub>0</sub>,  &beta;<sub>0</sub>,  &alpha;,  &beta;,  M<sub>0</sub>,  &psi;<sub>0</sub>,  S<sub>0</sub></p> | MCMC |  | Bayesian temporal matrix factorization (BTMF) |
 | Factorisation de matrice à noyaux bayésiens ([FMNB](https://github.com/antoML/sysfac/blob/master/PBG_FM-NoyauxBayesiens_KBMF.ipynb)) | Bayesian | spatiotemporal | <p>rank,  P<sub>z</sub>,  P<sub>x</sub>,  &alpha;<sub>&eta;</sub>,  &beta;<sub>&eta;</sub>,  &alpha;<sub>&lambda;</sub>,  &beta;<sub>&lambda;</sub>,  &sigma;<sub>g</sub>,  &sigma;<sub>h</sub>,  &nu;</p> | Variational |  Kernels : <p>Exponential<br>Gaussian<br>Periodic<p> | Kernelized bayesian matrix factorization (KBMF) |
 | Factorisation de matrice à noyaux probabilistes ([FMNP](https://github.com/antoML/sysfac/blob/master/PFG_FM-NoyauxProbabilistes_KPMF.ipynb)) | Frequentist | spatiotemporal | <p>rank,  &eta;,  &sigma;</p> | GD/SGD |  Kernels : <p>Exponential<br>Gaussian<br>Periodic<p> | Kernelized probabilistic matrix factorization (KPMF) |
-| Factorisation de matrice probabiliste ([FMP](https://github.com/antoML/sysfac/blob/master/PFG_FM-Probabiliste_PMF.ipynb)) | Frequentist |   | <p>rank,  &eta;,  tx régu</p> | GD | Variantes : <p>Prieures adaptatives<br>Contraintes</p> | Probabilistic matrix factorization (PMF) |
+| Factorisation de matrice probabiliste ([FMP](https://github.com/antoML/sysfac/blob/master/PFG_FM-Probabiliste_PMF.ipynb)) | Frequentist |   | <p>rank,  &eta;,  &epsilon;,  momentum,  &lambda;</p> | GD | Variantes : <p>Prieures adaptatives<br>Contraintes</p> | Probabilistic matrix factorization (PMF) |
 
 
 # References

@@ -45,25 +45,25 @@ To use the models, the user must have R or Python, and Jupyter Notebook installe
 > This subsection brings together research directly related to the methods that have been implemented.
 
 - **FMPF,  FMTF  et  FMST**
-  - Gultekin, San et John Paisley (2019). *Online Forecasting Matrix Factorization*. | [research](https://arxiv.org/abs/1712.08734)  
+  - Gultekin, San, and John Paisley (2019). *Online Forecasting Matrix Factorization*. | [research](https://arxiv.org/abs/1712.08734)  
 - **FMNN**
-  - Gaujoux, Renaud et Cathal Seoighe (2010). *A flexible R package for nonnegative matrix factorization.* | [research](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-367)  
-  - Lin, Xihui et Paul C. Boutros (2020). *Optimization and expansion of non-negative matrix factorization.* | [research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6945623/)  
+  - Gaujoux, Renaud, and Cathal Seoighe (2010). *A flexible R package for nonnegative matrix factorization.* | [research](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-367)  
+  - Lin, Xihui, and Paul C. Boutros (2020). *Optimization and expansion of non-negative matrix factorization.* | [research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6945623/)  
 - **FMRIS**
-  - Gillard, Jonathan et Konstantin Usevich (2018). *Structured low-rank matrix completion for forecasting in time series analysis.* | [research](https://arxiv.org/abs/1802.08242)  
+  - Gillard, Jonathan, and Konstantin Usevich (2018). *Structured low-rank matrix completion for forecasting in time series analysis.* | [research](https://arxiv.org/abs/1802.08242)  
 - **FMRT**
-  - Yu, Hsiang-Fu, Nikhil Rao et Inderjit S. Dhillon (2016). *Temporal regularized matrix factorization for high-dimensional time series prediction.* | [research](https://papers.nips.cc/paper/6160-temporal-regularized-matrix-factorization-for-high-dimensional-time-series-prediction)  
+  - Yu, Hsiang-Fu, Nikhil Rao, and Inderjit S. Dhillon (2016). *Temporal regularized matrix factorization for high-dimensional time series prediction.* | [research](https://papers.nips.cc/paper/6160-temporal-regularized-matrix-factorization-for-high-dimensional-time-series-prediction)  
 - **FMNB**
-  - Gonen, Mehmet Suleiman A. Khan et Samuel Kaski (2013). *Kernelized Bayesian Matrix Factorization.* | [research](http://proceedings.mlr.press/v28/gonen13a.html)  
-  - Gonen, Mehmet et Samuel Kaski (2014). *Kernelized Bayesian Matrix Factorization.* | [research](10.1109/TPAMI.2014.2313125)  
+  - Gonen, Mehmet Suleiman A. Khan, and Samuel Kaski (2013). *Kernelized Bayesian Matrix Factorization.* | [research](http://proceedings.mlr.press/v28/gonen13a.html)  
+  - Gonen, Mehmet, and Samuel Kaski (2014). *Kernelized Bayesian Matrix Factorization.* | [research](10.1109/TPAMI.2014.2313125)  
 - **FMPB**
-  - Salakhutdinov, Ruslan et Andriy Mnih (2008). *Bayesian probabilistic matrix factorization using Markov chain Monte Carlo.* | [research](https://doi.org/10.1145/1390156.1390267)  
+  - Salakhutdinov, Ruslan, and Andriy Mnih (2008). *Bayesian probabilistic matrix factorization using Markov chain Monte Carlo.* | [research](https://doi.org/10.1145/1390156.1390267)  
 - **FMTB**
-  - Chen, Xinyu, Lijun Sun (2019). *Bayesian temporal factorization for multidimensional time series prediction.* | [research](https://arxiv.org/abs/1910.06366)  
+  - Chen, Xinyu, and Lijun Sun (2019). *Bayesian temporal factorization for multidimensional time series prediction.* | [research](https://arxiv.org/abs/1910.06366)  
 - **FMNB**
-  - Zhou, Tinghui, Hanhuai Shan, Arindam Banerjee, Guillermo Sapiro (2012). *Kernelized probabilistic matrix factorization: exploiting graphs and side information.* | [research](https://people.eecs.berkeley.edu/~tinghuiz/papers/sdm12_kpmf.pdf)  
+  - Zhou, Tinghui, Hanhuai Shan, Arindam Banerjee, and Guillermo Sapiro (2012). *Kernelized probabilistic matrix factorization: exploiting graphs and side information.* | [research](https://people.eecs.berkeley.edu/~tinghuiz/papers/sdm12_kpmf.pdf)  
 - **FMP**
-  - Salakhutdinov, Ruslan, Andriy Mnih (2008). *Probabilistic Matrix Factorization.* | [research](https://dl.acm.org/doi/10.5555/2981562.2981720)  
+  - Salakhutdinov, Ruslan, and Andriy Mnih (2008). *Probabilistic Matrix Factorization.* | [research](https://dl.acm.org/doi/10.5555/2981562.2981720)  
 
 
 # Status
